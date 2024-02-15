@@ -469,6 +469,7 @@ nav ul li a:hover::after{
     letter-spacing: 2px;
     margin-left: 20px;
     margin-top: 0px;
+    font-size: 16px;
 
 }
 
