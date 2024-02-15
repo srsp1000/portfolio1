@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="doc/11.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work_main">Projects</a></li>
+                    <li><a href="#myservices">Services</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                    <i class="fa-solid fa-xmark fa-lg icon" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class=" fa-solid fa-bars fa-lg icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <h1> Hi, I'am <span>Rishi</span> Singh</h1>
+                <div class="animated-text">
+                    <span> </span>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <h1 class="subhead">About Me</h1>
+            <hr class="hr-about">
+            <div class="row">
+                <div class="about-1">
+                    <img src="doc/about1.png">
+                    <p class="aboutxt">I Rishi Singh, have been learning to code for the last 2 years and learned a few languages (HTML, CSS, javascript, C language, Python ), frameworks (React JS, bootstrap), and explored some important topics as a beginner such as version control, Git, GitHub, etc. I am currently learning Java, React Advance, DSA,  UI-Ux design, and working on some front-end web development projects. I am looking forward to being a full-stack developer by this year.
+                       </p> 
+
+                </div>
+                <div class="about-2">
+                    
+                    <div class="tabtit">
+                        <p class="tab-links activelink" onclick="opentab('Skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('Experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents activetab" id="Skills">
+                        <ul>
+                            <li><span> Web Development</span><br> Front-End Web Developer: design static websites using HTML, CSS and Vanilla Javascript  </li>
+                            <li> <span> React App</span> <br> currently learning and looking forward to mamke projects on React Js</li>
+                            <li> <span> Designing app interface</span> <br> Figma disiging - to desing website prototype using figma</li>
+                            <li> <span> Programming languages</span> <br> Python, C, HTML, CSS and Javascript  </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li><span> app Development</span><br> front-end web developer  </li>
+                            <li> <span> Designing app interface</span> <br> Figma disiging</li>
+                            <li> <span> Designing app interface</span> <br> Figma disiging</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span> High School</span><br> Dr. Virendra Swarup Education Centre, kanpur, Uttar Pradesh <br>  </li>
+                            <li> <span> Senior Secondary</span> <br> Air Force School, kanpur, Uttar Pradesh <br> Majors: Physics, Chemistry, Maths and Computer Science</li>
+                            <li> <span> Bachelor of Technology</span> <br>Bennett University (Times of India), Greater Noida, Uttar Pradesh <br> Branch: Computer Science <br> Year: First year</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span> Web Development</span><br> Meta Front-End Development course : <br> HTML, CSS, Javascript, React and Version control </li>
+                            <li> <span> MATLAB</span> <br> MATLAB Fundamentals <br> Introduction to Symbolic Math</li>
+                            <!-- <li> <span> </span> <br> Figma disiging</li> -->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="myservices">
+            <h1 class="head-service container msh"> My Services</h1>
+            <div class="container-ser"> 
+                <div class="ser-tab service1">
+                    <div class="ser-content">
+                        <img src="doc/code1.png" alt="code" class="ser-img">
+                    <h2 class="ser-subhead">Web Development</h2>
+                    <p class="ser-text"> Develop static websites Primarily composed of HTML, Styled with CSS and enhanced with Javascript. </p>
+                    <a href="#">Learn more...</a>
+                    </div>
+                     </div>
+                <div class="ser-tab service2"> 
+                    <div class="ser-content">
+                        <img src="doc/code1.png" alt="code" class="ser-img">
+                    <h2 class="ser-subhead">Web Design</h2>
+                    <p class="ser-text"> Design web pages using figma for prototype and instantly turn static Figma files into responsive, publication-ready websites.</p>
+                    <a href="#">Learn more...</a>
+                    </div>
+                </div>
+                <div class="ser-tab service3"> 
+                    <div class="ser-content">
+                        <img src="doc/code1.png" alt="code" class="ser-img">
+                    <h2 class="ser-subhead">On Going</h2>
+                    <p class="ser-text"> Accusantium asperiores, aperiam nihil quia saepe vero, delectus fuga, quibusdam mollitia explicabo deserunt architecto et ipsa molestiae porro. Dolorum unde quod veniam!</p>
+                    <a href="#">Learn more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div id="work_main">
+
+        <div class="container">
+            <h1 class="sub-head head-service"> My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="doc/about_back.png" alt="" >
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>Designed sample static responsive protfolio website </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2xl" style="color: #ff7f50;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="doc/python.jpeg" alt="" >
+                    <div class="layer">
+                        <h3>Voice Assistance</h3>
+                        <p>Created Voice Assistance using python</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2xl" style="color: #ff7f50;"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="doc/work3.jpg" alt="" >
+                    <div class="layer">
+                        <h3>Coming soon...</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, reiciendis aliquid.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2xl" style="color: #ff7f50;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------contact me---------------------- -->
+    <div id="contact-me">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                     <h1 class="contact-head">Contact Me</h1>
+                     <p><i class="fa-solid fa-paper-plane fa-xl mail"></i>srsp1000@gmail.com</p>
+                     <p><i class="fa-solid fa-phone fa-xl"></i> 0123456789</p>
+                     <div class="social-icon">
+                        <a href="https://github.com/srsp1000"><img src="doc/logo-git.png " class="con-img" alt=""></a>
+                        <a href="https://www.linkedin.com/in/srsp1000/"><img src="doc/logo-in.png" alt="" class="con-img"></a>
+                        <a href=""><img src="doc/logo-insta.png" alt="" class="con-img"></a>
+                        <a href="https://twitter.com/srsp1000"><img src="doc/logo-xx.png" alt="" class="con-img"></a>
+                    </div>
+                    <a href="doc/Resume-Rishi-Singh.pdf" class="btn2 btn" target="_blank">Download Cv</a>  
+                     <!-- add download keyword in href to auto matically download -->
+                </div>
+                
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email-Id" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn  btn3 ">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright © @srsp1000</p>
+        </div>
+
+
+    </div>
+
+
+
+    
+
+   
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/ec9f0f1484.js" crossorigin="anonymous"></script>
+</body>
+</html>
