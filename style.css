@@ -513,7 +513,7 @@ nav .icon{
 @media only screen and (max-width:600px) {
     #header{
         
-        background-image: url(backimg6.png);
+        background-image: url(doc/backimg6.png);
         background-size: cover; 
         width: 100%;
         overflow: hidden;
@@ -622,26 +622,25 @@ nav .icon{
     }
     .ser-tab{
         
-        width: 75%;
-        margin-left: 12%;
+        width: 95%;
+        margin-left: 1%;
 
     }
     .ser-content{
-        padding-top: 10%;
+        margin-top: 10%;
     }
     .tabtit{
-        margin-top: -3px;
+        margin-top: 5px;
     }
     .head-service{
         font-size: 40px;
         margin-left: 15px;
     }
     .ser-tab{
-       
+       padding-top: 10px;
         height: 350px;
-       
-     
-       
+        margin-bottom: 100px;
+
         border-radius: 10px;
         transition:  0.5s,transform 0.5s;
         
@@ -662,6 +661,7 @@ nav .icon{
     .contact-right{
         flex-basis: 90%;
     }
+    
     
     
 }
